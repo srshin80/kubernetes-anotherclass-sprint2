@@ -10,7 +10,7 @@ metadata:
     version: 1.0.0
     managed-by: kubectl
 spec:
-  replicas: 2
+  replicas: 1
   strategy:
     canary:
       steps:
